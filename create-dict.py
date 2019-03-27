@@ -32,6 +32,5 @@ for _ in range(int(cishu)):
     # value1 = input('年龄：')
     key1 = get_name()
     value1 = get_key()
-    # print('分割线'.center(30,'#'))
     one_dict['姓名:'+key1] = '年龄:'+value1
 print(one_dict)
