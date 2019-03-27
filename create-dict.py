@@ -2,6 +2,7 @@
 # -*-coding:utf-8 -*-
 # filename create-dict.py
 # author MaxD
+# 该脚本可以生成一个指定元素数量的字典,key随机，value随机
 import os
 import string
 import re
