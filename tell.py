@@ -1,2 +1,5 @@
-x = 'a'
-print (x.tell())
+x = {
+    'w':
+    {'a':1}
+}
+print (x.get('w').get('a'))
