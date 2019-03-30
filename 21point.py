@@ -18,20 +18,22 @@ else:
     print('请输入正确的数值')
     sys.exit()
 
-# 第一轮点数
+# 第一轮发牌
 one_list=[]
 for _ in range(int(user_num)):
     p1 = random.randint(5,10)
     one_list.append(p1)
+print('第一轮发牌 ',end = " ")
 for one in one_list:
     print(one,end = " ")
 print()
 
-# 第二轮点数
+# 第二轮发牌
 two_list=[]
 for _ in range(int(user_num)):
     p1 = random.randint(5,10)
     two_list.append(p1)
+print('第二轮发牌 ',end = " ")
 for two in two_list:
     print(two,end = " ")
 print()
@@ -41,6 +43,7 @@ sum_list=[]
 for sum in range(0,len(one_list)):
     sum_1 = one_list[sum] + two_list[sum]
     sum_list.append(sum_1)
+print('当前玩家总点数 ',end = " ")
 for sum3 in sum_list:
     print(sum3,end = " ")
 print()
@@ -49,21 +52,22 @@ print()
 user_dict = {}
 for yuansu in range(0,len(name_list)):
     user_dict[name_list[yuansu]] = sum_list[yuansu]
-print(user_dict)
+# print(user_dict)
 
 # 询问玩家是否继续
-# three_list = []
 name1_list = []
 user1_dict = user_dict.copy()
 end_dict = {}
 for a in range(0,len(sum_list)):
     user_con = input(f'{name_list[a]} 是否继续？(y/n)')
     if user_con == 'y':
-        # three_list.append(sum_list[a])
         name1_list.append(name_list[a])
     elif user_con == 'n':
         end_dict[name_list[a]] = sum_list[a]
         del user1_dict[name_list[a]]
+    else:
+        print('要玩就好好玩')
+        exit(0)
 print(f'所剩玩家{name1_list}')
 print(30*'-')
 print(f'已停手玩家{end_dict}')
@@ -75,6 +79,7 @@ four_list=[]
 for _ in range(0,len(name1_list)):
     p1 = random.randint(5,10)
     four_list.append(p1)
+print('第三轮发牌：',end = " ")
 for four in four_list:
     print(four,end = " ")
 print()
@@ -84,10 +89,11 @@ sum4_list=[]
 for sum4 in range(0,len(four_list)):
     sum_3 = sum_list[sum4] + four_list[sum4]
     sum4_list.append(sum_3)
+print('当前玩家总点数 ',end = " ")
 for sum5 in sum4_list:
     print(sum5,end = " ")
 print()
-print(end_dict)
+
 name2_list = []
 five_list = []
 for e in range(0,len(name1_list)):
@@ -98,9 +104,21 @@ for e in range(0,len(name1_list)):
     elif user_con == 'n':
         end_dict[name1_list[e]] = sum4_list[e]
         del user1_dict[name1_list[e]]
-print(end_dict)
+    else:
+        print('要玩就好好玩')
+        exit(0)
+
+print(f'游戏结束 当前玩家点数为：{end_dict}')
 
 sort_list = []
+if int(user_num) == 1:
+    if end_dict[user_name] <= 21:
+        print(f'{user_name} 获胜')
+        exit()
+    else:
+        print('爆了')
+        exit()
+
 if user1_dict == {}:
     for u in name_list:
         if end_dict[u] <= 21:
@@ -108,6 +126,6 @@ if user1_dict == {}:
     sort_list.sort(reverse=True)
 for name,point in end_dict.items():
     if point == sort_list[0]:
-        print(f'{name} Win point is {point}')
+        print(f'{name} 获胜  当前点数为 {point}')
             
 
