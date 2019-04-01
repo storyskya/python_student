@@ -70,25 +70,11 @@ while True:
         changdu()
 
     if choose == 'q':
-        print('bye')
+        print('Bye')
         exit(0)
     if choose not in ['t','c','l','q']:
         print('Are you kidding me???')
         print()
-
-# if choose == 'l':
-#     temp = input('please input wendu(例如 1c 或者 1f):')
-#     if temp.endswith('c'):
-#         temp = float(temp.strip(string.ascii_letters))
-#         tf = (9/5) * temp + 32
-#         print(f'tf = (9/5)*{temp}+32 = {tf}F')
-#     elif temp.endswith('f'):
-#         temp = float(temp.strip(string.ascii_letters))
-#         tf = (5/9) * temp - 32
-#         print(f'tf = (5/9)*{temp}-32 = {tf}T')
-#     else:
-#         print('bye')
-
 
 
 
