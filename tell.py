@@ -1,18 +1,20 @@
 import random
-# print(random.randint(21))
+import string
 # list1 = []
 # list1.append
 # name_list = []
 # name_num = 1
 # list1 = [1,3,4,5]
 # print(list1)
-# print("".join(list1))
-one_list = [1,2,4,5,6,7]
-# x = 0
-# for _ in range(3):
-#     p1 = random.randint(1,10)
-#     one_list.append(p1)
-#     print(one_list[x])
-#     x += 1
-for i in one_list:
-    print (i)
+
+temp = input('please input wendu(例如 1rmb 或者 1usd):')
+if temp.endswith('rmb'):
+    temp = float(temp.strip(string.ascii_letters))
+    usd = temp / 6.78
+    print(f'{temp}rmb = {temp}/6.78 = {usd}usd')
+elif temp.endswith('usd'):
+    temp = float(temp.strip(string.ascii_letters))
+    rmb=  temp * 6.78
+    print(f'{temp}usd = {temp} * 6.78 = {rmb}rmb')
+else:
+    print('bye')

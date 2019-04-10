@@ -8,7 +8,7 @@ import re
 import os
 
 def wendu():
-    temp = input('please input wendu(例如 1c 或者 1f):')
+    temp = input('please input 温度(例如 1c 或者 1f):')
     if temp.endswith('c'):
         temp = float(temp.strip(string.ascii_letters))
         tf = (9/5) * temp + 32
@@ -22,7 +22,7 @@ def wendu():
     return()
 
 def huobi():
-    temp = input('please input wendu(例如 1rmb 或者 1usd):')
+    temp = input('please input 货币(例如 1rmb 或者 1usd):')
     if temp.endswith('rmb'):
         temp = float(temp.strip(string.ascii_letters))
         usd = temp / 6.78
@@ -35,15 +35,15 @@ def huobi():
         print('bye')
 
 def changdu():
-    temp = input('please input wendu(例如 1M 或者 1ft):')
-    if temp.endswith('ft'):
+    temp = input('please input 长度(例如 1M 或者 1ft):')
+    if temp.endswith('M'):
         temp = float(temp.strip(string.ascii_letters))
-        ft = temp / 3.28
-        print(f'{temp}M = {temp}/3.28 = {ft}ft')
-    elif temp.endswith('M'):
+        m = temp * 3.28
+        print(f'{temp}M = {temp} * 3.28 = {m}ft')
+    elif temp.endswith('ft'):
         temp = float(temp.strip(string.ascii_letters))
-        M=  temp * 3.28
-        print(f'{temp}ft = {temp} * 3.28 = {M}M')
+        ft=  temp / 3.28
+        print(f'{temp}ft = {temp} / 3.28 = {ft}M')
     else:
         print('bye')
 
