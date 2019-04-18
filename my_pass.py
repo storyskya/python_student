@@ -5,8 +5,15 @@
 
 import base64
 import string
+import getpass
+import time
 
-default_str = 'hong1968'
+print('''一个生成密码的小程序,
+输入一个默认密码再输入一组字符串，可生成一串加密后的密码。
+（注：并非随机密码。如两次输入一样则生成的密码也一样，可以方便忘记时找回）
+        ''')
+
+default_str = getpass.getpass('Default_str: ')
 input_str = input('Domain name: ')
 add_str = default_str+input_str
 base_str = (base64.b64encode(add_str.encode('utf-8'))).decode('utf-8')
@@ -24,8 +31,10 @@ for _ in range(0,len(base_str)):
         F_pass = F_pass + str(len(input_str))
     if len(F_pass) == 5:
         F_pass = F_pass + string.punctuation[len(add_str)]
-        
+
+
 print()
 print()
 print(F_pass[3:])
 print()
+time.sleep(10)
