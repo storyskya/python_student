@@ -43,7 +43,7 @@ def create_pass():
         except IndexError as error1:
             pass
         if len(F_pass) == 7:
-            F_pass = F_pass + str(len(base_str))
+            F_pass = F_pass + str(int(len(base_str)/2))
         if len(F_pass) == 5:
                 F_pass = F_pass + string.punctuation[len(base_str)]
     print()
