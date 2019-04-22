@@ -40,12 +40,13 @@ def create_pass():
         count += 2
         try:
             F_pass = F_pass + base_pass[count]
+            if len(F_pass) == 7:
+                F_pass = F_pass + str(int(len(base_str)/2))
+            if len(F_pass) == 5:
+                F_pass = F_pass + string.punctuation[len(base_str)]
         except IndexError as error1:
             pass
-        if len(F_pass) == 7:
-            F_pass = F_pass + str(int(len(base_str)/2))
-        if len(F_pass) == 5:
-                F_pass = F_pass + string.punctuation[len(base_str)]
+
     print()
     print()
     print(F_pass[3:])
