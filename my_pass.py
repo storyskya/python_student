@@ -10,7 +10,7 @@ import os
 import sys
 
 print('''一个生成密码的小程序,作者 MaxD
-输入一个常用密码再输入一组字符串，可生成一串加密后的密码。
+输入一个常用密码再输入一组字符，可生成一串加密后的密码。
 （注：并非随机密码。如两次输入一样则生成的密码也一样，可以方便忘记时找回）
         ''')
 
@@ -23,7 +23,9 @@ def input_str():
         two_str = input('请输入随机密码(最少5个字符): ')
         base_str = one_str + two_str
         if len(base_str) <= 13:
-            print('字符串过短请重新输入')
+            print('字符太少请重新输入')
+        elif len(base_str) > 30:
+            print('输入的字符太多了')
         else:
             TF = False
     return(base_str)
