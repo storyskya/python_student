@@ -121,6 +121,26 @@ str_from = string.ascii_letters
 #     print (x)
 #     name = name+x
 # print (name)
-str_from = string.ascii_letters
-# print(''.join([random.choice(str_from) for _ in range(5)]))
-print(''.join([random.choice(str_from)
+# str_from = string.ascii_letters
+# # print(''.join([random.choice(str_from) for _ in range(5)]))
+# print(''.join([random.choice(str_from)
+# class Car():
+#     pass
+
+# class MyCar():
+#     pass
+# c = MyCar()
+# print(Car)
+# print(type(Car))
+# print(type(c))
+# print(c)
+# print(isinstance(c,MyCar))
+class Bird:
+    def __init__(self,name):
+        self.name = name
+    
+    def sing():
+        print(f'{self.name}zai gechang')
+
+b5 = Bird('bailing ')
+Bird.sing('bailing')
