@@ -142,5 +142,13 @@ class Bird:
     def sing():
         print(f'{self.name}zai gechang')
 
-b5 = Bird('bailing ')
-Bird.sing('bailing')
+# b5 = Bird('bailing ')
+# Bird.sing('bailing')
+
+def get_abs(n):
+    return int(str(n).strip('-'))
+
+def add(x,y,f):
+    return f(x) + f(y)
+
+print(add(5,-10,get_abs))
