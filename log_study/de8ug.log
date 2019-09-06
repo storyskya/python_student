@@ -1,0 +1,136 @@
+2018-05-03 13:28:17,758 log_4_light.py [line:12] DE8UG-LOG INFO test
+2018-05-03 13:29:46,336 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:29:46,338 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:29:46,340 log_4_light.py [line:32] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:29:46,341 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:29:46,342 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:29:46,344 log_4_light.py [line:32] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:29:46,344 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:29:46,345 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:29:46,349 log_4_light.py [line:32] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:29:46,350 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:29:46,350 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:29:46,351 log_4_light.py [line:32] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:29:46,353 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:29:46,354 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:29:46,355 log_4_light.py [line:32] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:30:14,264 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:30:14,266 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,267 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:30:14,267 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,268 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：黄灯
+2018-05-03 13:30:14,273 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,275 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:30:14,277 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,278 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:30:14,279 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,279 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：黄灯
+2018-05-03 13:30:14,280 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,283 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:30:14,284 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,284 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:30:14,285 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,285 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：黄灯
+2018-05-03 13:30:14,286 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,289 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:30:14,290 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,291 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:30:14,291 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,292 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：黄灯
+2018-05-03 13:30:14,293 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,294 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:30:14,296 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,297 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:30:14,299 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:30:14,302 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：黄灯
+2018-05-03 13:30:14,309 log_4_light.py [line:34] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:31:22,802 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:31:22,803 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,805 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:31:22,806 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,807 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:31:22,807 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,809 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:31:22,809 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,810 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:31:22,811 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,811 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:31:22,812 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,816 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:31:22,816 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,816 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:31:22,818 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,821 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:31:22,822 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,823 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:31:22,823 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,824 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:31:22,824 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,824 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:31:22,825 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,825 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:31:22,826 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,826 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:31:22,827 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:31:22,827 log_4_light.py [line:28] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:31:22,827 log_4_light.py [line:30] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:37,054 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:33:37,055 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:37,055 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:33:37,056 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:37,056 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:33:37,057 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:37,058 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:33:37,058 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:37,058 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:33:37,059 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:37,059 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：绿灯
+2018-05-03 13:33:37,060 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:37,062 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：绿灯
+2018-05-03 13:33:37,064 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:37,064 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：绿灯
+2018-05-03 13:33:37,064 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:37,065 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：绿灯
+2018-05-03 13:33:37,065 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:37,066 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：绿灯
+2018-05-03 13:33:37,067 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:37,067 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:33:37,068 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:37,069 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：绿灯
+2018-05-03 13:33:37,069 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:37,073 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：黄灯
+2018-05-03 13:33:37,074 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:37,074 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:33:37,075 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:37,075 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：绿灯
+2018-05-03 13:33:37,080 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:44,163 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：绿灯
+2018-05-03 13:33:44,164 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:44,165 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:33:44,165 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:44,166 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:33:44,166 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:44,167 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:33:44,168 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:44,169 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:33:44,172 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:44,173 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：绿灯
+2018-05-03 13:33:44,174 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:44,176 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：绿灯
+2018-05-03 13:33:44,178 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:44,181 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：黄灯
+2018-05-03 13:33:44,182 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:44,182 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:33:44,183 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:44,184 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：绿灯
+2018-05-03 13:33:44,184 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:44,184 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：绿灯
+2018-05-03 13:33:44,185 log_4_light.py [line:33] DE8UG-LOG INFO 继续开吧，老司机
+2018-05-03 13:33:44,185 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：黄灯
+2018-05-03 13:33:44,185 log_4_light.py [line:35] DE8UG-LOG WARNING 开不开都行，看运气吧
+2018-05-03 13:33:44,186 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了长安街， 遇到了：红灯
+2018-05-03 13:33:44,187 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:44,187 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了二环， 遇到了：红灯
+2018-05-03 13:33:44,187 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊
+2018-05-03 13:33:44,188 log_4_light.py [line:29] DE8UG-LOG INFO 开着开着，到了五环， 遇到了：红灯
+2018-05-03 13:33:44,188 log_4_light.py [line:31] DE8UG-LOG ERROR 快刹车啊

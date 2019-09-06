@@ -1,0 +1,5 @@
+('D:\\python-start\\build\\Key&mouse\\pyuserinput-0.1.11-py3.7.egg',
+ None,
+ {'*.cp37-win_amd64.pyd', 'EGG-INFO', '*.pyw', '*.pyc', '*.py', '*.pyd'},
+ 'DATA',
+ [])
