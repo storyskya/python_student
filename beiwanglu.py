@@ -19,8 +19,9 @@ def Add_list():
     Time = input('请输入时间（例如 10:18）: ')
     Addr = input('请输入地点（例如 会议室）: ')
     Thing = input('请输入待办事项（例如 开会）: ')
-
+    Nid = int(len(zong_list)) +1
     Thing_dict = {
+    'ID':Nid,
     '日期':Date,
     '时间':Time,
     '地点':Addr,
@@ -37,7 +38,8 @@ def Find_list():
             if Find_con in zong_list[list_num].values():
                 # print (zong_list[list_num].items())
                 for k,v in zong_list[list_num].items():
-                    print (f'{ColorMe(k).blue()}:{ColorMe(v).red()}')
+                    # print (f'{ColorMe(k).blue()}:{ColorMe(v).red()}')
+                    print(k,v)
                 print()
     else:
         print('请增加备忘录内容')
@@ -63,7 +65,8 @@ def Look_list():
     if len(zong_list) != 0:
         for i in range(len(zong_list)):
             for k,v in zong_list[i].items():
-                print (f'{ColorMe(k).blue()}:{ColorMe(v).red()}')
+                # print (f'{ColorMe(k).blue()}:{ColorMe(v).red()}')
+                print(k,v)
             print ('_'*30)
     elif len(zong_list) == 0:
         f = ColorMe('目前备忘录没内容').blue()
